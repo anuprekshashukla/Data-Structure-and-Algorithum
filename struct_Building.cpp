@@ -34,9 +34,9 @@ int main()
      cin>>build[i].No_of_Gates;
    }
   //PRINTING VALUES
-   for(i=0;i<5;i++)
+   for(i=0;i<3;i++)
    {
-      cout<<"\t\tBUILDING DETAILS:"<<i+1<<endl<<endl;
+      cout<<"\t\tBUILDING DETAILS:"<<endl<<endl;
       cout<<"BUILDING NAME: "<<build[i].name<<endl;
       cout<<"TOTAL FLOOR :"<<build[i].floor<<endl;
       cout<<"TOTAL Security Gards:"<<build[i].No_Of_Security_Gards<<endl;
@@ -44,5 +44,4 @@ int main()
       cout<<"BLOCKS :"<<build[i].No_of_Blocks<<endl;
       cout<<"TOTAl GATES:"<<build[i].No_of_Gates<<endl;
    }
-   return 0;
  }
